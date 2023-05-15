@@ -1,4 +1,4 @@
-import {Profile} from 'components/Profile.jsx';
+import {Profile} from 'components/Profile/Profile.jsx';
 import user from 'Data/user.json'; 
 
 export const App = () => {
