@@ -3,30 +3,30 @@ import PropTypes from 'prop-types';
 
 export const Profile = ({ username, tag, location, avatar, stats }) => {
   return (
-    <div class="profile">
-      <div class="description">
+    <div className="profile">
+      <div className="description">
         <img
           src={avatar}
           alt="User avatar"
-          class="avatar"
+          className="avatar"
         />
-        <p class="name">{username}</p>
-        <p class="tag">@{tag}</p>
-        <p class="location">{location}</p>
+        <p className="name">{username}</p>
+        <p className="tag">@{tag}</p>
+        <p className="location">{location}</p>
       </div>
 
-      <ul class="stats">
+      <ul className="stats">
         <li>
           <span className="label">Followers</span>
-          <span class="quantity">{stats.followers}</span>
+          <span className="quantity">{stats.followers}</span>
         </li>
         <li>
-          <span class={css.label}>Views</span>
-          <span class="quantity">{stats.views}</span>
+          <span className={css.label}>Views</span>
+          <span className="quantity">{stats.views}</span>
         </li>
         <li>
-          <span class="label">Likes</span>
-          <span class="quantity">{stats.likes}</span>
+          <span className="label">Likes</span>
+          <span className="quantity">{stats.likes}</span>
         </li>
       </ul>
     </div>
@@ -39,6 +39,6 @@ Profile.propTypes = {
     tag: PropTypes.string.isRequired,
     location: PropTypes.string.isRequired,
     avatar: PropTypes.string.isRequired,
-    stats: PropTypes.number.isRequired,
+    stats: PropTypes.object.isRequired,
     
   };

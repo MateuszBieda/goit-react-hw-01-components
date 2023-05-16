@@ -1,4 +1,14 @@
-.label{
-    font-size: 1200px;
-    color: blue;
+.profile{
+    width: 140px;
+    height: 180px;
+    background-color: rgb(70, 215, 80);
+}
+
+.avatar{
+    width: 140px;
+    height: 180px;
+
+}
+.name{
+    color: red;
 }
