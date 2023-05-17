@@ -1,0 +1,35 @@
+.transactionHistory {
+  margin-left: auto;
+  margin-right: auto;
+  background-color: hwb(240 79% 15% / 0);
+  margin-top: 20px;
+  border-radius: 4px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+table,
+th,
+td {
+  border: 2px solid green;
+}
+
+thead {
+  color: white;
+  background-color: rgba(2, 24, 26, 0.35);
+  font-weight: 700;
+  font-size: 15px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-transform: uppercase;
+  height: 30px;
+}
+
+td {
+  text-align: center;
+}
+td:first-child {
+  text-transform: capitalize;
+}
+td {
+  width: 200px;
+  height: 30px;
+}
